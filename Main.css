@@ -1,5 +1,18 @@
-
 body
 {
-    background-color: rgb(255, 106, 0);
+    background-color: rgb(50,60,65);
+}
+nav
+{
+    position: sticky;
+}
+
+.title /* Used to make the navbar not cover the title.*/
+{
+    margin-top: -1rem; /* Used to recover from the extreme amount of padding-top. */
+    padding-top: 5rem; /* Used to make the text go down enough to be seen. */
+}
+.card-table-cell
+{
+    width: 20%;
 }
